@@ -21,6 +21,7 @@ Run the application:
 
 API Endpoints
     Authentication
+
     POST /api/v1/register
         Registers a new user (admin, librarian, or member). The password is auto-generated and emailed to the user.
 
@@ -28,6 +29,7 @@ API Endpoints
         Logs in an existing user and returns a JWT token for subsequent requests.
 
 Book Management
+
     POST /api/v1/add
         Adds a new book (admin only).
 
@@ -42,6 +44,7 @@ Book Management
 
 
 Borrowing & Returning Books
+
     POST /api/v1/borrow
         Allows a member to borrow a book (member only).
 
@@ -52,6 +55,7 @@ Borrowing & Returning Books
         Lists borrowing and returning records (librarian only).
 
 User Management
+
     POST /api/v1/addusers
         Adds a new user (admin only).
 
